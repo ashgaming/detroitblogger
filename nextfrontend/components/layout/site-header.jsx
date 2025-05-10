@@ -50,7 +50,7 @@ export function SiteHeader() {
       <div className="container flex items-center justify-between">
         <div className="flex items-center space-x-4">
           <Link href="/" className="text-2xl font-bold text-primary">
-            InsightBlog
+            DetroitBlogger
           </Link>
           
           <nav className="hidden md:flex items-center space-x-1">
