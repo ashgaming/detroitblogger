@@ -10,7 +10,7 @@ export function generateMetadata({ params }) {
   if (!category) return {};
   
   return {
-    title: `${category.name} | InsightBlog`,
+    title: `${category.name} | DetroitBlog`,
     description: category.description
   };
 }
