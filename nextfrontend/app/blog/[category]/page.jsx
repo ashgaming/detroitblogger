@@ -32,6 +32,23 @@ export default function CategoryPage({ params }) {
   
   return (
     <div className="min-h-screen">
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6282336656230210"
+        crossOrigin="anonymous"
+      ></script>
+
+      {/* Ad container */}
+
+       <ins
+        className="adsbygoogle"
+        style={{ display: 'block', textAlign: 'center' }}
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-6282336656230210"
+        data-ad-slot="1429105465"
+      ></ins>
+     
       <section className="pt-32 pb-10 md:pt-40 md:pb-12 bg-muted">
         <div className="container max-w-5xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
