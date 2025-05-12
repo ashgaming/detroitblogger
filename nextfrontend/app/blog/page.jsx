@@ -30,7 +30,7 @@ export default function BlogPage() {
         </div>
       </section>
       
-      <NewsletterSignup />
+      {/* <NewsletterSignup /> */}
     </div>
   );
 }

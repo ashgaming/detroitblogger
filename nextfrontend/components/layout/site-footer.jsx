@@ -74,21 +74,21 @@ export function SiteFooter() {
                   About Us
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors">
                   Contact
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link href="/privacy" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/privacy-policy" className="text-muted-foreground hover:text-primary transition-colors">
                   Privacy Policy
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/terms" className="text-muted-foreground hover:text-primary transition-colors">
                   Terms of Service
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           
@@ -112,7 +112,7 @@ export function SiteFooter() {
         </div>
         
         <div className="mt-12 pt-8 border-t border-border/40 text-center text-muted-foreground text-sm">
-          <p>© {new Date().getFullYear()} InsightBlog. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} DetroitBlogger. All rights reserved.</p>
         </div>
       </div>
     </footer>

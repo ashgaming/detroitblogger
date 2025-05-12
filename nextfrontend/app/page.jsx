@@ -71,12 +71,12 @@ export default function Home() {
             <p className="text-lg mb-6">
               Hey there! I'm excited to share my journey as a new content creator and software developer. Through this blog and my YouTube channel, I aim to make complex technical concepts accessible and engaging for everyone.
             </p>
-            <Button variant="outline" size="lg" asChild>
+            {/* <Button variant="outline" size="lg" asChild>
               <a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener noreferrer" className="inline-flex items-center">
                 <Youtube className="mr-2 h-5 w-5" />
                 Subscribe on YouTube
               </a>
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>
@@ -129,7 +129,7 @@ export default function Home() {
       </section>
       
       {/* Newsletter Section */}
-      <NewsletterSignup />
+      {/* <NewsletterSignup /> */}
     </div>
   );
 }

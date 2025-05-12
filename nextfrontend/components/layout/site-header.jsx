@@ -93,12 +93,12 @@ export function SiteHeader() {
         </div>
         
         <div className="flex items-center space-x-2">
-          <button 
+          {/* <button 
             className="p-2 text-foreground/80 hover:text-primary transition-colors"
             aria-label="Search"
           >
             <Search className="h-5 w-5" />
-          </button>
+          </button> */}
           
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -121,11 +121,11 @@ export function SiteHeader() {
             </DropdownMenuContent>
           </DropdownMenu>
           
-          <div className="hidden md:block">
+          {/* <div className="hidden md:block">
             <Button className="bg-primary hover:bg-primary/90">
               Subscribe
             </Button>
-          </div>
+          </div> */}
           
           <button
             className="md:hidden p-2 text-foreground/80 hover:text-primary transition-colors"

@@ -26,7 +26,7 @@ export default function AboutPage() {
             <div className="md:w-1/2">
               <h2 className="text-2xl md:text-3xl font-bold mb-4">Our Mission</h2>
               <p className="text-muted-foreground mb-4">
-                At InsightBlog, we're dedicated to providing thoughtful, in-depth content that helps our readers stay informed, grow professionally, and find practical solutions to everyday challenges.
+                At DetroitBlogger.Blog, we're dedicated to providing thoughtful, in-depth content that helps our readers stay informed, grow professionally, and find practical solutions to everyday challenges.
               </p>
               <p className="text-muted-foreground">
                 We believe that quality content has the power to educate, inspire, and transform. That's why we work with industry experts to deliver articles that go beyond surface-level information to provide genuine insight and value.
@@ -95,7 +95,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-      
+{/*       
       <section className="py-12 md:py-16 bg-muted">
         <div className="container max-w-4xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Our Expert Writers</h2>
@@ -153,9 +153,9 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       
-      <NewsletterSignup />
+      {/* <NewsletterSignup /> */}
     </div>
   );
 }
